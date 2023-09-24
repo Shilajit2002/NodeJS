@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: lightseagreen;
+}
+
+header {
+    width: 100%;
+    background-color: #2b2a33;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+    padding: 0px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+    font-size: 1.3em;
+}
+
+main {
+    padding: 50px 0px;
+    background-image: url('https://wallpapercave.com/wp/wp2639569.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 1020px;
+    width: 100%;
+}
+
+input,
+textarea {
+    display: block;
+    width: 60%;
+    margin: 15px auto;
+    padding: 10px;
+    outline: none;
+    border-style: none;
+    background-color: #000000da;
+    border-radius: 5px;
+    font-size: 1.4em;
+    color: white;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 25px 50px -12px;
+}
+
+.btn {
+    display: block;
+    margin: 15px auto;
+    outline: none;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: green;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: darkgreen;
+    box-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(255, 183, 0);
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.651);
+    padding: 5px;
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+footer {
+    width: 100%;
+    background-color: lightseagreen;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 0.9em;
+}

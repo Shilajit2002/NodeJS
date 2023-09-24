@@ -1,0 +1,77 @@
+-- Install npm --
+npm init
+** After install a 'package.json' file will be create **
+
+------------------------------------------------------------------------------------------------
+
+-- npm package install --
+npm install package-name
+Eg:- npm install slugify
+
+------------------------------------------------------------------------------------------------
+
+** You can see now a 'package-lock.json' file will be create and also 'node_modules' folder will be create where you can see the 'package (slugify)' details **
+
+------------------------------------------------------------------------------------------------
+
+** Also you see the package details in 'package.json' file in 'dependencies' division **
+
+"dependencies": {
+    "slugify": "^1.6.5"
+  }
+
+"^1.6.5" means exactly 1.6.5 version will be download of slugify package
+
+------------------------------------------------------------------------------------------------
+
+-- We can mention the package version during install --
+
+npm install package-name@version
+
+Eg: npm install slugify@1.2.6
+
+"dependencies": {
+    "slugify": "^1.2.6"
+  }
+
+------------------------------------------------------------------------------------------------
+
+-- Uninstall the Package --
+
+npm uninstall package-name
+Eg: npm uninstall slugify
+
+------------------------------------------------------------------------------------------------
+
+-- Dev-dependencies --
+Let us now see what dev dependencies are. There are times when we want to install the packages only for development purposes, not for production purposes. In that case, dev dependencies are useful. The best example of this is nodemon. It gives us the server which automatically gets restart every time. 
+
+To install this, we have to write-
+
+npm install package-name --save-dev
+Eg: npm install nodemon --save-dev
+
+------------------------------------------------------------------------------------------------
+
+*Now you can see the package details in dev-dependencies division*
+
+"devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+
+------------------------------------------------------------------------------------------------
+
+-- Run JS file using nodemon --
+
+nodemon filename.js
+Eg: nodemon index.js
+
+------------------------------------------------------------------------------------------------
+
+-- Install nodemon globally --
+
+npm install nodemon --global
+
+*If we install nodemon globally in a folder then we can use nodemon any where.Not need to install nodemon another folder*
+
+*For this case we install nodemon globally in NPM folder so we can use nodemon also Express folder without installation*

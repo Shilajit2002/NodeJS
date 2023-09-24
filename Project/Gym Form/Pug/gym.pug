@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>#{title}</title>
+
+        //- Add css in pug
+        style 
+            include gym.css
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Get this Gym Membership for 80$ - Fill this form now!</h2>
+            <form action="/" method="post" id="contact">
+                <input type="text" name="name" id="name" placeholder="Enter Name">
+                <input type="text" name="age" id="age" placeholder="Enter Age">
+                <input type="text" name="gender" id="gender" placeholder="Enter Gender">
+                <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter your Address here.."></textarea>
+                <textarea name="more" id="more" cols="30" rows="10" placeholder="More about you.."></textarea>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </main>
+
+        <footer>
+            <h3>Copyright&copy;2022 | Developed By Shilajit | GYM Form</h3>
+        </footer>
+    </body>
+
+</html>

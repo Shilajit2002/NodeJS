@@ -1,0 +1,110 @@
+[
+    {
+        "name": "John Smith",
+        "roll_id": "001",
+        "course": "Computer Science",
+        "college": "University of California, Berkeley"
+    },
+    {
+        "name": "Jane Doe",
+        "roll_id": "002",
+        "course": "Electrical Engineering",
+        "college": "Massachusetts Institute of Technology"
+    },
+    {
+        "name": "James Johnson",
+        "roll_id": "003",
+        "course": "Business Administration",
+        "college": "Stanford University"
+    },
+    {
+        "name": "Jessica Lee",
+        "roll_id": "004",
+        "course": "Psychology",
+        "college": "Yale University"
+    },
+    {
+        "name": "Jack Thompson",
+        "roll_id": "005",
+        "course": "Biology",
+        "college": "Harvard University"
+    },
+    {
+        "name": "Karen Chen",
+        "roll_id": "006",
+        "course": "Civil Engineering",
+        "college": "California Institute of Technology"
+    },
+    {
+        "name": "Kevin Davis",
+        "roll_id": "007",
+        "course": "Political Science",
+        "college": "Princeton University"
+    },
+    {
+        "name": "Katie Wilson",
+        "roll_id": "008",
+        "course": "Journalism",
+        "college": "Columbia University"
+    },
+    {
+        "name": "Kyle Brown",
+        "roll_id": "009",
+        "course": "Mechanical Engineering",
+        "college": "Georgia Institute of Technology"
+    },
+    {
+        "name": "Kimberly Jones",
+        "roll_id": "010",
+        "course": "Chemistry",
+        "college": "California State University, Los Angeles"
+    },
+    {
+        "name": "Liam Taylor",
+        "roll_id": "011",
+        "course": "Computer Science",
+        "college": "University of Illinois at Urbana-Champaign"
+    },
+    {
+        "name": "Lucas Martinez",
+        "roll_id": "012",
+        "course": "Electrical Engineering",
+        "college": "University of Michigan"
+    },
+    {
+        "name": "Lila Jackson",
+        "roll_id": "013",
+        "course": "Business Administration",
+        "college": "Northwestern University"
+    },
+    {
+        "name": "Lauren Brown",
+        "roll_id": "014",
+        "course": "Psychology",
+        "college": "University of Chicago"
+    },
+    {
+        "name": "Logan Clark",
+        "roll_id": "015",
+        "course": "Biology",
+        "college": "University of Wisconsin-Madison"
+    },
+    {
+        "name": "Mia Perez",
+        "roll_id": "016",
+        "course": "Civil Engineering",
+        "college": "University of Texas at Austin"
+    },
+    {
+        "name": "Mason Davis",
+        "roll_id": "017",
+        "course": "Political Science",
+        "college": "University of California, Los Angeles"
+    },
+    {
+        "name": "Madison Adams",
+        "roll_id": "018",
+        "course": "Journalism",
+        "college": "University of Southern California"
+    }
+]
